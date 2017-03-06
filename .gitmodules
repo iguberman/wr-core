@@ -22,10 +22,6 @@
 	path = layers/meta-intel
 	url = https://github.com/WindRiver-OpenSourceLabs/meta-intel
 	branch = pulsar-8
-[submodule "wrlabs-integration"]
-	path = layers/wrlabs-integration
-	url = https://github.com/WindRiver-OpenSourceLabs/wrlabs-integration
-	branch = pulsar-8
 [submodule "xilinx-zynq"]
 	path = layers/xilinx-zynq
 	url = https://github.com/WindRiver-OpenSourceLabs/xilinx-zynq
@@ -126,3 +122,8 @@
 	path = layers/external-binaries
 	url = https://github.com/WindRiver-OpenSourceLabs/external-binaries
 	branch = master
+[submodule "layers/wrlabs-integration"]
+	path = layers/wrlabs-integration
+	url = https://github.com/iguberman/wrlabs-integration
+	branch = pulsar-8-no-gnome
+
