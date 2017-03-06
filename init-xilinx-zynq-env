@@ -69,18 +69,14 @@ if [ $? = 0 ] ; then
 	       pulsar \
 	       meta-overc/meta-cube \
 	       meta-cloud-services \
-               meta-browser \
 	       meta-security \
                meta-openembedded/meta-initramfs \
                meta-openembedded/meta-filesystems \
 	       meta-openembedded/meta-networking \
-	       meta-openembedded/meta-multimedia \
-	       meta-openembedded/meta-gnome \
 	       meta-openembedded/meta-oe \
 	       meta-openembedded/meta-python \
 	       meta-openembedded/meta-perl \
 	       meta-openembedded/meta-webserver \
-	       meta-openembedded/meta-xfce \
 	       external-binaries \
 	       meta-virtualization \
 	       oe-meta-go ; do
