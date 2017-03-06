@@ -118,3 +118,10 @@
 	path = layers/meta-ima
 	url = https://github.com/WindRiver-OpenSourceLabs/meta-ima
 	branch = pulsar-8
+[submodule "meta-browser"]
+	path = layers/meta-browser
+	url = https://github.com/WindRiver-OpenSourceLabs/meta-browser
+	branch = pulsar-8
+[submodule "meta-erlang"]
+	path = layers/meta-erlang
+	url = https://github.com/joaohf/meta-erlang
