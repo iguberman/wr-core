@@ -1,7 +1,3 @@
-[submodule "oe-core"]
-	path = layers/oe-core
-	url = ../oe-core
-	branch = wr-8.0-20151119-no-cups
 [submodule "wrlinux"]
 	path = layers/wrlinux
 	url = https://github.com/WindRiver-OpenSourceLabs/wrlinux
@@ -33,10 +29,6 @@
 [submodule "overc-installer"]
 	path = overc-installer
 	url = https://github.com/WindRiver-OpenSourceLabs/overc-installer
-	branch = pulsar-8
-[submodule "meta-openembedded"]
-	path = layers/meta-openembedded
-	url = ../meta-openembedded
 	branch = pulsar-8
 [submodule "meta-virtualization"]
 	path = layers/meta-virtualization
@@ -125,4 +117,12 @@
 [submodule "layers/wrlabs-integration"]
 	path = layers/wrlabs-integration
 	url = https://github.com/iguberman/wrlabs-integration
+	branch = pulsar-8-no-gnome
+[submodule "layers/oe-core"]
+	path = layers/oe-core
+	url = https://github.com/iguberman/oe-core
+	branch = wr-8.0-20151119-no-cups
+[submodule "layers/meta-openembedded"]
+	path = layers/meta-openembedded
+	url = https://github.com/iguberman/meta-openembedded
 	branch = pulsar-8-no-gnome
