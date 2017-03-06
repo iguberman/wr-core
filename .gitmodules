@@ -1,46 +1,46 @@
 [submodule "bitbake"]
 	path = layers/bitbake
-	url = ../bitbake
+	url = https://github.com/WindRiver-OpenSourceLabs/bitbake
 	branch = wr-8.0-20151119
 [submodule "oe-core"]
 	path = layers/oe-core
 	url = ../oe-core
-	branch = wr-8.0-20151119
+	branch = wr-8.0-20151119-no-cups
 [submodule "wrlinux"]
 	path = layers/wrlinux
-	url = ../wrlinux
+	url = https://github.com/WindRiver-OpenSourceLabs/wrlinux
 	branch = LB13_8.0_RCPL0001
 [submodule "wr-kernel"]
 	path = layers/wr-kernel
-	url = ../wr-kernel
+	url = https://github.com/WindRiver-OpenSourceLabs/wr-kernel
 	branch = LB13_8.0_RCPL0001
 [submodule "wr-base"]
 	path = layers/wr-base
-	url = ../wr-base
+	url = https://github.com/WindRiver-OpenSourceLabs/wr-base
 	branch = LB13_8.0_RCPL0001
 [submodule "wr-fixes"]
 	path = layers/wr-fixes
-	url = ../wr-fixes
+	url = https://github.com/WindRiver-OpenSourceLabs/wr-fixes
 	branch = LB13_8.0_RCPL0001
 [submodule "meta-intel"]
 	path = layers/meta-intel
-	url = ../meta-intel
+	url = https://github.com/WindRiver-OpenSourceLabs/meta-intel
 	branch = pulsar-8
 [submodule "wrlabs-integration"]
 	path = layers/wrlabs-integration
-	url = ../wrlabs-integration
+	url = https://github.com/WindRiver-OpenSourceLabs/wrlabs-integration
 	branch = pulsar-8
 [submodule "xilinx-zynq"]
 	path = layers/xilinx-zynq
-	url = ../xilinx-zynq
+	url = https://github.com/WindRiver-OpenSourceLabs/xilinx-zynq
 	branch = pulsar-8
 [submodule "meta-overc"]
 	path = layers/meta-overc
-	url = ../meta-overc
+	url = https://github.com/WindRiver-OpenSourceLabs/meta-overc
 	branch = pulsar-8
 [submodule "overc-installer"]
 	path = overc-installer
-	url = ../overc-installer
+	url = https://github.com/WindRiver-OpenSourceLabs/overc-installer
 	branch = pulsar-8
 [submodule "meta-openembedded"]
 	path = layers/meta-openembedded
@@ -48,81 +48,73 @@
 	branch = pulsar-8
 [submodule "meta-virtualization"]
 	path = layers/meta-virtualization
-	url = ../meta-virtualization
+	url = https://github.com/WindRiver-OpenSourceLabs/meta-virtualization
 	branch = pulsar-8
 [submodule "oe-meta-go"]
 	path = layers/oe-meta-go
-	url = ../oe-meta-go
+	url = https://github.com/WindRiver-OpenSourceLabs/oe-meta-go
 	branch = ovp7-20150902
 [submodule "qemuarma9"]
 	path = layers/qemuarma9
-	url = ../qemuarma9
+	url = https://github.com/WindRiver-OpenSourceLabs/qemuarma9
 	branch = LB13_8.0_RCPL0001
 [submodule "qemuarm"]
 	path = layers/qemuarm
-	url = ../qemuarm
+	url = https://github.com/WindRiver-OpenSourceLabs/qemuarm
 	branch = LB13_8.0_RCPL0001
 [submodule "wr-tools-debug"]
 	path = layers/wr-tools-debug
-	url = ../wr-tools-debug
+	url = https://github.com/WindRiver-OpenSourceLabs/wr-tools-debug
 	branch = LB13_8.0_RCPL0001
 [submodule "fsl-ls10xx"]
 	path = layers/fsl-ls10xx
-	url = ../fsl-ls10xx
+	url = https://github.com/WindRiver-OpenSourceLabs/fsl-ls10xx
 	branch = pulsar-8
 [submodule "meta-gateway"]
 	path = layers/meta-gateway
-	url = ../meta-gateway
+	url = https://github.com/WindRiver-OpenSourceLabs/meta-gateway
 	branch = master
 [submodule "vendor-proprietary"]
 	path = layers/vendor-proprietary
-	url = ../vendor-proprietary
+	url = https://github.com/WindRiver-OpenSourceLabs/vendor-proprietary
 	branch = master
 [submodule "meta-cloud-services"]
 	path = layers/meta-cloud-services
-	url = ../meta-cloud-services
-	branch = pulsar-8
-[submodule "meta-browser"]
-	path = layers/meta-browser
-	url = ../meta-browser
+	url = https://github.com/WindRiver-OpenSourceLabs/meta-cloud-services
 	branch = pulsar-8
 [submodule "meta-security"]
         path = layers/meta-security
-        url = ../meta-security
+        url = https://github.com/WindRiver-OpenSourceLabs/meta-security
         branch = pulsar-8
 [submodule "external-binaries"]
 	path = layers/external-binaries
-	url = ../external-binaries
+	url = https://github.com/WindRiver-OpenSourceLabs/external-binaries
 	branch = master
 [submodule "premirrors8"]
 	path = premirrors8
-	url = ../premirrors8
+	url = https://github.com/WindRiver-OpenSourceLabs/premirrors8
 	branch = master
 [submodule "wr-hac-agent"]
 	path = layers/wr-hac-agent
-	url = ../wr-hac-agent
+	url = https://github.com/WindRiver-OpenSourceLabs/wr-hac-agent
 	branch = master
 [submodule "meta-dpdk"]
 	path = layers/meta-dpdk
-	url = ../meta-dpdk
+	url = https://github.com/WindRiver-OpenSourceLabs/meta-dpdk
 	branch = pulsar-8
 [submodule "layers/meta-secure-env"]
 	path = layers/meta-secure-env
-	url = ../meta-secure-env
+	url = https://github.com/WindRiver-OpenSourceLabs/meta-secure-env
 	branch = master
 [submodule "layers/meta-measured"]
 	path = layers/meta-measured
-	url = ../meta-measured
+	url = https://github.com/WindRiver-OpenSourceLabs/meta-measured
 	branch = pulsar-8
 [submodule "intel-apollolake"]
 	path = layers/intel-apollolake
-	url = ../intel-apollolake
+	url = https://github.com/WindRiver-OpenSourceLabs/intel-apollolake
 	branch = pulsar-8
-[submodule "meta-java"]
-	path = layers/meta-java
-	url = ../meta-java
-	branch = wr-8.0-20151119
 [submodule "meta-ima"]
 	path = layers/meta-ima
-	url = ../meta-ima
+	url = https://github.com/WindRiver-OpenSourceLabs/meta-ima
 	branch = pulsar-8
