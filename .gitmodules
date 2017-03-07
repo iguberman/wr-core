@@ -6,10 +6,6 @@
 	path = layers/wr-kernel
 	url = https://github.com/WindRiver-OpenSourceLabs/wr-kernel
 	branch = LB13_8.0_RCPL0001
-[submodule "wr-base"]
-	path = layers/wr-base
-	url = https://github.com/WindRiver-OpenSourceLabs/wr-base
-	branch = LB13_8.0_RCPL0001
 [submodule "wr-fixes"]
 	path = layers/wr-fixes
 	url = https://github.com/WindRiver-OpenSourceLabs/wr-fixes
@@ -126,3 +122,7 @@
 	path = layers/meta-overc
 	url = https://github.com/iguberman/meta-overc
 	branch = pulsar-8-no-gnome
+[submodule "layers/wr-base"]
+	path = layers/wr-base
+	url = https://github.com/iguberman/wr-base
+	branch = LB13_8.0_RCPL0001-no-xorg
