@@ -22,10 +22,6 @@
 	path = layers/xilinx-zynq
 	url = https://github.com/WindRiver-OpenSourceLabs/xilinx-zynq
 	branch = pulsar-8
-[submodule "meta-overc"]
-	path = layers/meta-overc
-	url = https://github.com/WindRiver-OpenSourceLabs/meta-overc
-	branch = pulsar-8
 [submodule "overc-installer"]
 	path = overc-installer
 	url = https://github.com/WindRiver-OpenSourceLabs/overc-installer
@@ -125,4 +121,8 @@
 [submodule "layers/meta-openembedded"]
 	path = layers/meta-openembedded
 	url = https://github.com/iguberman/meta-openembedded
+	branch = pulsar-8-no-gnome
+[submodule "layers/meta-overc"]
+	path = layers/meta-overc
+	url = https://github.com/iguberman/meta-overc
 	branch = pulsar-8-no-gnome
