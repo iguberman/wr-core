@@ -14,10 +14,6 @@
 	path = layers/meta-intel
 	url = https://github.com/WindRiver-OpenSourceLabs/meta-intel
 	branch = pulsar-8
-[submodule "xilinx-zynq"]
-	path = layers/xilinx-zynq
-	url = https://github.com/WindRiver-OpenSourceLabs/xilinx-zynq
-	branch = pulsar-8
 [submodule "overc-installer"]
 	path = overc-installer
 	url = https://github.com/WindRiver-OpenSourceLabs/overc-installer
@@ -126,3 +122,7 @@
 	path = layers/wr-base
 	url = https://github.com/iguberman/wr-base
 	branch = LB13_8.0_RCPL0001-no-xorg
+[submodule "layers/xilinx-zynq"]
+	path = layers/xilinx-zynq
+	url = https://github.com/iguberman/xilinx-zynq
+	branch = LB21_7.0_RCPL0004-no-xorg
