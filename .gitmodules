@@ -102,10 +102,6 @@
 	path = layers/external-binaries
 	url = https://github.com/WindRiver-OpenSourceLabs/external-binaries
 	branch = master
-[submodule "layers/wrlabs-integration"]
-	path = layers/wrlabs-integration
-	url = https://github.com/iguberman/wrlabs-integration
-	branch = pulsar-8-no-gnome
 [submodule "layers/oe-core"]
 	path = layers/oe-core
 	url = https://github.com/iguberman/oe-core
@@ -126,3 +122,7 @@
 	path = layers/xilinx-zynq
 	url = https://github.com/iguberman/xilinx-zynq
 	branch = LB21_7.0_RCPL0004-no-xorg
+[submodule "layers/wrlabs-integration"]
+	path = layers/wrlabs-integration
+	url = https://github.com/iguberman/wrlabs-integration
+	branch = pulsar-8-no-gnome
