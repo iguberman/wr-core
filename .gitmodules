@@ -18,10 +18,6 @@
 	path = overc-installer
 	url = https://github.com/WindRiver-OpenSourceLabs/overc-installer
 	branch = pulsar-8
-[submodule "meta-virtualization"]
-	path = layers/meta-virtualization
-	url = https://github.com/WindRiver-OpenSourceLabs/meta-virtualization
-	branch = pulsar-8
 [submodule "oe-meta-go"]
 	path = layers/oe-meta-go
 	url = https://github.com/WindRiver-OpenSourceLabs/oe-meta-go
