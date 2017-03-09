@@ -102,10 +102,6 @@
 	path = layers/external-binaries
 	url = https://github.com/WindRiver-OpenSourceLabs/external-binaries
 	branch = master
-[submodule "layers/oe-core"]
-	path = layers/oe-core
-	url = https://github.com/iguberman/oe-core
-	branch = wr-8.0-20151119-no-cups
 [submodule "layers/meta-openembedded"]
 	path = layers/meta-openembedded
 	url = https://github.com/iguberman/meta-openembedded
@@ -126,3 +122,7 @@
 	path = layers/xilinx-zynq
 	url = https://github.com/iguberman/xilinx-zynq
 	branch = pulsar-8-no-xorg
+[submodule "layers/oe-core"]
+	path = layers/oe-core
+	url = https://github.com/iguberman/oe-core
+	branch = wr-8.0-20151119-with-qemu
