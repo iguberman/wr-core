@@ -122,3 +122,7 @@
 	path = layers/oe-core
 	url = https://github.com/iguberman/oe-core
 	branch = wr-8.0-20151119-with-qemu
+[submodule "layers/meta-virtualization"]
+	path = layers/meta-virtualization
+	url = https://github.com/iguberman/meta-virtualization
+	branch = pulsar-8-mini
